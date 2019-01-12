@@ -77,7 +77,7 @@ class InstagramBot:
                                     + " | Sleeping " + str(second))
                     time.sleep(1)
             except Exception as e:
-                time.sleep(10)
+                time.sleep(15) # sleep time increased to prohibit temporary ban
             unique_photos -= 1
 
 
